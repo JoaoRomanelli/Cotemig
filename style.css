@@ -1,0 +1,137 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700;900&display=swap');
+*{ box-sizing: border-box;
+margin: 0;
+padding: 0;}
+#teltopo{
+    
+    background-color: rgba(0, 0, 0, 1.0);
+    box-sizing: border-box;
+    height: 40px;
+    width: 100%;
+    z-index: 1000;
+}
+ div a{
+    color: white;
+    line-height: 40px;
+    text-decoration: none;
+ }
+ #teltopo div{
+    width: 40%;
+    float: right;
+    font-size: 16px;
+ }
+ span{
+     color: white;
+     font-family: Arial, Helvetica, sans-serif;
+     font-weight: 500;
+ }
+.container {
+   width: 100%;
+   position: sticky;
+   top: 0;
+   left: 0;
+   z-index:99;
+   height: 7vh;
+    background: rgba(0,0,0,.75);
+
+}
+li{
+   color: white;
+   display: inline-block;
+   font-family:'Lato', sans-serif;
+   margin: 0.8px;
+   padding: 9.8px 17.5px;
+   font-size: 14px;
+   font-weight: bold;
+   border-radius: 8px;
+   position: relative;
+}
+#logor{
+
+   width: 175px;
+   height: 40px;
+   vertical-align: middle;
+   margin-left: 20rem;
+}
+#logo { 
+   display: inline-block;
+   margin-left: 20rem;
+}
+.swipe-meu-responsivo {
+position: relative;
+top: -7vh;
+z-index: 1; }
+
+#colecotemig{
+ font-size: 2.375em;
+ position: relative;
+ margin-left: 350Px;
+ bottom: 375px ;
+ color: white;
+ font-family: 'Lato', sans-serif;
+ font-weight: 900;
+ 
+}
+#aqui{
+   margin: 1em 0 0;
+   font-size: 18px;
+   line-height: 26px;
+   font-family: 'Lato', sans-serif;
+   margin-left: 350Px;
+   position: relative;
+   bottom: 370px ;
+   color: white;
+   font-weight: 700;
+}
+.botaoverde{
+   width: 20%;
+   height: 45px;
+   padding: 1em;
+   text-decoration: none;
+   text-align: center;
+   font-size: 1em;
+   border-radius: 8px;
+   background: #40aa0b;
+   cursor: pointer;
+   margin-left: 350Px;
+   bottom: 450px ;
+   position:absolute;
+   box-sizing: border-box;
+   font-family: 'Lato', sans-serif;
+}
+#chose{
+   text-align: center;
+   font-size: 2.5em;
+   color: #111;
+   font-family: 'Lato', sans-serif;
+   font-weight: 900;
+   margin-bottom: 100px;
+   position: relative;
+   display: block;
+}
+.choose2{
+   color: #424242;
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   bottom: 100px ;
+}
+#imagem1{
+   position: relative;
+   width: 19%;
+   display: inline-block;
+   box-sizing: border-box;
+   overflow: hidden;
+   border-radius: 10px;
+   margin-left: 400px;
+}
+#imagem2{
+   position: relative;
+   width: 19%;
+   display: inline-block;
+   box-sizing: border-box;
+   overflow: hidden;
+   border-radius: 10px;
+   margin-right: 300px;
+}
+
